@@ -20,3 +20,7 @@ get '/named-cat' do
   @color = params[:color]
   erb(:index)
 end
+
+# post '/named-cat' do
+#
+# end
